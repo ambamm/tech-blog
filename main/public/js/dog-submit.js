@@ -11,4 +11,9 @@ function submitdog (event) {
 }
 
 
+// fetch("/api/dog", {
+//   method: 'post',
+//   body: JSON.stringify(inputVal),headers: { 'Content-Type' : 'application/json'}, 
+// })
+
 submitBtn.addEventListener("click", submitdog)

@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Project } = require('../../models');
+const { Dog } = require('../../models');
 const withAuth = require('../../utils/auth');
 
 router.post('/', withAuth, async (req, res) => {
@@ -18,4 +18,4 @@ router.post('/', withAuth, async (req, res) => {
 
 
 module.exports = router;
- 
+  
