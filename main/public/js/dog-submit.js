@@ -8,3 +8,6 @@ function submitdog (event) {
       headers: { 'Content-Type': 'application/json' },
     })
 }
+
+
+submitBtn.addEventListener("click", submitdog)
