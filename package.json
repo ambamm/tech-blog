@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ambamm/tech-blog/issues"
   },
-  "homepage": "https://github.com/ambamm/tech-blog#readme"
+  "homepage": "https://github.com/ambamm/tech-blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express-session": "^1.17.3"
+  }
 }
